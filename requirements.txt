@@ -1,6 +1,4 @@
 pandas
 matplotlib
 langchain
-langchain.prompts
-langchain.output_parsers
 langchain_google_genai
