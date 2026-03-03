@@ -1,2 +1,4 @@
 pandas
 matplotlib
+langchain
+langchain_google_genai
