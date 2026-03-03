@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import json
-# import speech_recognition as sr
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
@@ -15,7 +13,7 @@ from langchain.output_parsers import StructuredOutputParser, ResponseSchema
 st.set_page_config(page_title="🍎 Analizador Nutricional IA", layout="wide")
 
 st.title("🍽️ Analizador Nutricional con IA")
-st.write("Introduce lo que has comido hoy por texto o voz y obtén un análisis nutricional estimado.")
+st.write("Introduce lo que has comido hoy por texto y obtén un análisis nutricional estimado.")
 
 # -------------------------
 # INPUT POR TEXTO
